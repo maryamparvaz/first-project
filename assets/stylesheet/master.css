@@ -1,0 +1,778 @@
+.page1 {
+  width: 100%;
+}
+.page1 > .row > * {
+  width: 100%;
+}
+.page1 > .row > header {
+  height: 110px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.page1 > .row > header > figure {
+  width: 20%;
+  height: 100%;
+  padding: 20px;
+}
+.page1 > .row > header > figure > a {
+  width: 100%;
+  height: 100%;
+}
+.page1 > .row > header > figure > a > img {
+  width: 100%;
+  height: 100%;
+}
+.page1 > .row > header > div {
+  height: 100%;
+  width: 50%;
+  display: flex;
+}
+.page1 > .row > header > div > ul {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.page1 > .row > header > div > ul > li {
+  display: flex;
+  flex-grow: 1;
+  height: 100%;
+  padding: 20px;
+  position: relative;
+}
+.page1 > .row > header > div > ul > li:hover > .dropdown1 {
+  opacity: 1;
+  visibility: visible;
+}
+.page1 > .row > header > div > ul > li:hover > .dropdown2 {
+  opacity: 1;
+  visibility: visible;
+}
+.page1 > .row > header > div > ul > li:hover > .dropdown3 {
+  opacity: 1;
+  visibility: visible;
+}
+.page1 > .row > header > div > ul > li > .dropdown1 {
+  width: 700px;
+  height: 500px;
+  display: flex;
+  position: absolute;
+  top: 110px;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+  background-color: white;
+  overflow: hidden;
+}
+.page1 > .row > header > div > ul > li > .dropdown1 > li {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  margin: 20px;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+.page1 > .row > header > div > ul > li > .dropdown1 > li > span {
+  width: 100%;
+  font-size: 20px;
+  height: 40px;
+  font-weight: bold;
+}
+.page1 > .row > header > div > ul > li > .dropdown1 > li > img {
+  width: 100%;
+  height: 80%;
+  transition: 0.4s;
+  border-radius: 10px;
+}
+.page1 > .row > header > div > ul > li > .dropdown1 > li > img:hover {
+  width: 110%;
+  height: 90%;
+}
+.page1 > .row > header > div > ul > li .dropdown2 {
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 110px;
+  left: 0;
+  background-color: white;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+}
+.page1 > .row > header > div > ul > li .dropdown2 > li {
+  display: flex;
+  width: 100%;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+}
+.page1 > .row > header > div > ul > li .dropdown2 > li > img {
+  height: 70%;
+  border-radius: 50%;
+}
+.page1 > .row > header > div > ul > li .dropdown2 > li > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  font-weight: bold;
+  padding: 10px;
+}
+.page1 > .row > header > div > ul > li .dropdown2 > li > a:hover {
+  color: #ff512f;
+}
+.page1 > .row > header > div > ul > li > .dropdown3 {
+  width: 700px;
+  height: 500px;
+  display: flex;
+  position: absolute;
+  top: 110px;
+  left: -50px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+  background-color: white;
+  overflow: hidden;
+}
+.page1 > .row > header > div > ul > li > .dropdown3 > li {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  margin: 20px;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+.page1 > .row > header > div > ul > li > .dropdown3 > li > span {
+  width: 100%;
+  font-size: 20px;
+  height: 40px;
+  font-weight: bold;
+}
+.page1 > .row > header > div > ul > li > .dropdown3 > li > img {
+  width: 100%;
+  height: 50%;
+  transition: 0.4s;
+  border-radius: 10px;
+}
+.page1 > .row > header > div > ul > li > .dropdown3 > li > a {
+  width: 140px;
+  height: 40px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+}
+.page1 > .row > header > div > ul > li > .dropdown3 > li > a:hover {
+  background-color: #ff512f;
+  border-color: rgba(15, 19, 23, 0);
+}
+.page1 > .row > header > div > ul > li > a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  font-size: 18px;
+  font-weight: lighter;
+}
+.page1 > .row > header > div > ul > li > a:hover {
+  color: #ff512f;
+}
+.page1 > .row > header > a {
+  height: 50px;
+  width: 190px;
+  background-color: #ff512f;
+  color: white;
+  font-weight: bolder;
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.page1 > .row > header > a:hover {
+  background-color: black;
+}
+.page1 > .row > section {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  background-image: url(../img/background.png);
+  display: flex;
+  justify-content: space-between;
+}
+.page1 > .row > section > div {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+.page1 > .row > section > div > * {
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.page1 > .row > section > div > span {
+  font-size: 20px;
+}
+.page1 > .row > section > div > h2 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #ff512f;
+  font-family: serif;
+}
+.page1 > .row > section > div > p {
+  width: 70%;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.page1 > .row > section > figure {
+  height: 100%;
+  width: 50%;
+}
+.page1 > .row > section > figure > img {
+  width: 100%;
+  height: 100%;
+}
+
+.page2 {
+  width: 100%;
+  margin-top: 20px;
+}
+.page2 > .row {
+  justify-content: space-evenly;
+}
+.page2 > .row > div {
+  height: 600px;
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.page2 > .row > div > figure > figcaption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.page2 > .row > div > p {
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: lighter;
+  height: 20%;
+}
+.page2 > .row > div > a {
+  font-size: 20px;
+  padding: 20px;
+  background-color: #ff512f;
+}
+.page2 > .row > div > a:hover {
+  background-color: black;
+  color: white;
+}
+
+.page3 {
+  display: flex;
+  margin-top: 50px;
+  padding: 40px;
+  width: 100%;
+  justify-content: space-between;
+}
+.page3 > figure {
+  display: flex;
+  width: 55%;
+  height: 650px;
+}
+.page3 > figure > img {
+  width: 100%;
+}
+.page3 > div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+}
+.page3 > div > span {
+  font-size: 20px;
+}
+.page3 > div > h3 {
+  font-size: 50px;
+}
+
+.page4 {
+  background-color: #0f1317;
+  display: flex;
+  flex-wrap: wrap;
+}
+.page4 > span {
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: "Montserrat", sans-serif;
+}
+.page4 > h3 {
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 40px;
+}
+.page4 > div {
+  display: flex;
+  width: 100%;
+}
+.page4 > div > figure {
+  width: 25%;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.page4 > div > figure > img {
+  width: 100%;
+}
+.page4 > div > figure > figcaption {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.page4 > div > figure > p {
+  text-align: center;
+  color: gray;
+  margin-top: 10px;
+}
+.page4 > div > figure > a {
+  width: 130px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  color: white;
+  padding: 20px;
+}
+.page4 > div > figure > a:hover {
+  border-color: #ff512f;
+}
+
+.page5 {
+  width: 100%;
+  display: flex;
+  background-color: #ff512f;
+  background-image: url(../img/back.png);
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.page5 > figure {
+  display: flex;
+  padding: 30px;
+  flex-wrap: wrap;
+  width: 70%;
+}
+.page5 > figure > img {
+  width: 20%;
+  height: 150px;
+}
+.page5 > figure > figcaption {
+  width: 70%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.page5 > a {
+  background-color: white;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 70px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.page5 > a:hover {
+  background-color: #0f1317;
+  color: white;
+}
+
+.page6 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.page6 > div {
+  width: 40%;
+  margin-left: 30px;
+}
+.page6 > div > h4 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.page6 > div > p {
+  line-height: 30px;
+  margin-bottom: 60px;
+}
+.page6 > div > figure {
+  display: flex;
+  margin: 60px 0px;
+}
+.page6 > div > figure > figcaption {
+  margin-left: 20px;
+}
+.page6 > div > figure > figcaption > span {
+  font-size: 20px;
+  font-weight: bold;
+}
+.page6 > div > figure > figcaption > p {
+  line-height: 30px;
+  margin-top: 20px;
+}
+.page6 > figure {
+  width: 40%;
+  height: 700px;
+  position: relative;
+  margin-right: 40px;
+}
+.page6 > figure > img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.page6 > figure > figcaption {
+  position: absolute;
+  left: -60px;
+  bottom: 20px;
+  background-color: white;
+  width: 300px;
+  height: 500px;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -10px 0px 5px gray;
+  padding: 20px;
+  text-align: center;
+}
+
+.page7 {
+  width: 100%;
+  height: 60vh;
+  margin-top: 60px;
+}
+.page7 > .row {
+  width: 100%;
+  flex-grow: 1;
+  margin-top: 80px;
+}
+.page7 > .row > figure {
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.page7 > .row > figure > figcaption {
+  width: 100%;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.page8 {
+  background-color: #0f1317;
+  width: 100%;
+}
+.page8 .row {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.page8 .row > figure {
+  width: 50%;
+}
+.page8 .row > figure > img {
+  width: 100%;
+  height: 900px;
+}
+.page8 .row > section {
+  width: 50%;
+  margin: 40px;
+  margin-top: 80px;
+}
+.page8 .row > section > * {
+  color: white;
+  margin: 25px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.page8 .row > section > h4 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.page8 .row > section > div {
+  display: flex;
+  width: 100%;
+}
+.page8 .row > section > div > figure {
+  width: 100%;
+  margin: 20px;
+}
+.page8 .row > section > div > figure > img {
+  width: 100%;
+  border: 10px solid #262728;
+  border-radius: 50%;
+}
+.page8 .row > section > div > figure > figcaption {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.page9 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 200px;
+}
+.page9 > .row > h4 {
+  width: 100%;
+  font-size: 50px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+.page9 > .row > .row {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+.page9 > .row > .row > div {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.page9 > .row > .row > div > figure {
+  width: 100%;
+  height: 400px;
+  margin: 30px;
+  position: relative;
+}
+.page9 > .row > .row > div > figure > img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.page9 > .row > .row > div > figure:hover::after {
+  height: 100%;
+}
+.page9 > .row > .row > div > figure:after {
+  content: "Maryam Parvaz";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  height: 0px;
+  background-color: rgba(15, 19, 23, 0.6156862745);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+  transition: 0.4s;
+  overflow: hidden;
+}
+.page9 > .row > .row > div > span {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.page9 > .row > .row > div > p {
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 16px;
+}
+.page9 > .row > a {
+  width: 200px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #0f1317;
+  margin: 60px auto;
+}
+.page9 > .row > a:hover {
+  border-color: #ff512f;
+}
+
+.page10 {
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+}
+.page10 > .row {
+  width: 100%;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+.page10 > .row > figure {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+.page10 > .row > figure > img {
+  width: 100%;
+  height: 100%;
+}
+
+.page11 {
+  width: 100%;
+  background-image: url(../img/back2.jpg);
+  background-size: cover;
+  margin-top: 70px;
+}
+.page11 > .row {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.page11 > .row > * {
+  color: white;
+}
+.page11 > .row > span {
+  width: 100%;
+  margin-top: 80px;
+  text-align: center;
+  font-size: 20px;
+}
+.page11 > .row > h6 {
+  text-align: center;
+  font-size: 40px;
+  width: 100%;
+  margin: 30px 0px;
+  font-weight: bold;
+}
+.page11 > .row > p {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+.page11 > .row > input {
+  width: 270px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+.page11 > .row > a {
+  width: 170px;
+  height: 50px;
+  background-color: #ff512f;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border: 1px solid rgba(255, 0, 0, 0);
+}
+.page11 > .row > a:hover {
+  background-color: rgba(255, 82, 47, 0);
+  border-color: white;
+}
+
+footer {
+  width: 100%;
+  height: 60vh;
+  background-color: #0f1317;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-image: url(../img/header-food-pattern-bg.png);
+}
+footer > span {
+  width: 40%;
+  font-size: 40px;
+  color: #ff512f;
+  display: flex;
+  align-items: center;
+  font-family: serif;
+  margin-left: 20px;
+  font-weight: bold;
+}
+footer > div {
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  justify-content: end;
+}
+footer > div > *,
+footer > div a:visited {
+  color: white;
+}
+footer > div > span {
+  width: 100%;
+  font-size: 40px;
+  font-weight: bold;
+}
+footer > div > a {
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+}
+footer > div > a:hover {
+  color: #ff512f;
+}
+footer > div > figure {
+  margin-right: 80px;
+  margin-top: 40px;
+}
+footer > div > figure > img {
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=master.css.map */

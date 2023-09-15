@@ -1,0 +1,962 @@
+$orange: #ff512f;
+
+.page1 {
+        width: 100%;
+
+        >.row {
+                >* {
+                        width: 100%;
+                        // border: 1px solid black;
+                }
+
+                >header {
+                        height: 110px;
+                        background-color: white;
+                        display: flex;
+                        justify-content: space-between;
+
+                        >figure {
+                                width: 20%;
+                                height: 100%;
+                                padding: 20px;
+
+                                >a {
+                                        width: 100%;
+                                        height: 100%;
+
+                                        >img {
+                                                width: 100%;
+                                                height: 100%;
+                                        }
+                                }
+                        }
+
+                        >div {
+                                height: 100%;
+                                width: 50%;
+                                display: flex;
+                                // border: 1px solid red;
+                                // align-items: center;
+                                // justify-content: center;
+
+                                >ul {
+                                        display: flex;
+                                        height: 100%;
+                                        width: 100%;
+                                        // background-color: #ff512f;
+
+                                        >li {
+                                                display: flex;
+                                                flex-grow: 1;
+                                                height: 100%;
+                                                padding: 20px;
+                                                position: relative;
+
+                                                &:hover>.dropdown1 {
+                                                        opacity: 1;
+                                                        visibility: visible;
+                                                }
+
+                                                &:hover>.dropdown2 {
+                                                        opacity: 1;
+                                                        visibility: visible;
+                                                }
+
+                                                &:hover>.dropdown3 {
+                                                        opacity: 1;
+                                                        visibility: visible;
+                                                }
+
+
+                                                >.dropdown1 {
+                                                        width: 700px;
+                                                        height: 500px;
+                                                        display: flex;
+                                                        position: absolute;
+                                                        top: 110px;
+                                                        left: 0;
+                                                        // border: 1px solid rebeccapurple;
+                                                        opacity: 0;
+                                                        visibility: hidden;
+                                                        transition: .4s;
+                                                        background-color: white;
+                                                        overflow: hidden;
+
+                                                        >li {
+                                                                width: 50%;
+                                                                height: 100%;
+                                                                display: flex;
+                                                                flex-wrap: wrap;
+                                                                align-items: start;
+                                                                // background-color: #ff512f;
+                                                                margin: 20px;
+                                                                justify-content: space-evenly;
+                                                                overflow: hidden;
+
+                                                                >span {
+                                                                        width: 100%;
+                                                                        font-size: 20px;
+                                                                        height: 40px;
+                                                                        font-weight: bold;
+                                                                }
+
+                                                                >img {
+                                                                        width: 100%;
+                                                                        height: 80%;
+                                                                        transition: .4s;
+                                                                        border-radius: 10px;
+
+                                                                        &:hover {
+                                                                                width: 110%;
+                                                                                height: 90%;
+                                                                        }
+                                                                }
+                                                        }
+                                                }
+
+                                                .dropdown2 {
+                                                        width: 300px;
+                                                        height: 500px;
+                                                        display: flex;
+                                                        flex-wrap: wrap;
+                                                        position: absolute;
+                                                        top: 110px;
+                                                        left: 0;
+                                                        background-color: white;
+                                                        opacity: 0;
+                                                        visibility: hidden;
+                                                        transition: .4s;
+
+                                                        >li {
+                                                                display: flex;
+                                                                width: 100%;
+                                                                height: 120px;
+                                                                // margin: 10px;
+                                                                // border: 1px solid black;
+                                                                align-items: center;
+                                                                justify-content: center;
+
+                                                                >img {
+                                                                        height: 70%;
+                                                                        border-radius: 50%;
+                                                                }
+
+                                                                >a {
+                                                                        display: flex;
+                                                                        align-items: center;
+                                                                        justify-content: center;
+                                                                        margin-left: 10px;
+                                                                        font-weight: bold;
+                                                                        padding: 10px;
+
+                                                                        &:hover {
+                                                                                color: #ff512f;
+                                                                        }
+                                                                }
+                                                        }
+                                                }
+
+                                                >.dropdown3 {
+                                                        width: 700px;
+                                                        height: 500px;
+                                                        display: flex;
+                                                        position: absolute;
+                                                        top: 110px;
+                                                        left: -50px;
+                                                        // border: 1px solid rebeccapurple;
+                                                        opacity: 0;
+                                                        visibility: hidden;
+                                                        transition: .4s;
+                                                        background-color: white;
+                                                        overflow: hidden;
+
+                                                        >li {
+                                                                width: 50%;
+                                                                height: 100%;
+                                                                display: flex;
+                                                                flex-wrap: wrap;
+                                                                align-items: start;
+                                                                // background-color: #ff512f;
+                                                                margin: 20px;
+                                                                justify-content: space-evenly;
+                                                                overflow: hidden;
+
+                                                                >span {
+                                                                        width: 100%;
+                                                                        font-size: 20px;
+                                                                        height: 40px;
+                                                                        font-weight: bold;
+                                                                }
+
+                                                                >img {
+                                                                        width: 100%;
+                                                                        height: 50%;
+                                                                        transition: .4s;
+                                                                        border-radius: 10px;
+
+                                                                }
+
+                                                                >a {
+                                                                        width: 140px;
+                                                                        height: 40px;
+                                                                        border: 1px solid black;
+                                                                        display: flex;
+                                                                        align-items: center;
+                                                                        justify-content: center;
+                                                                        transition: .4s;
+
+                                                                        &:hover {
+                                                                                background-color: #ff512f;
+                                                                                border-color: #0f131700;
+                                                                        }
+
+                                                                }
+                                                        }
+                                                }
+
+                                                >a {
+                                                        height: 100%;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        justify-content: center;
+                                                        flex-grow: 1;
+                                                        font-size: 18px;
+                                                        font-weight: lighter;
+
+                                                        &:hover {
+                                                                color: $orange;
+                                                        }
+                                                }
+                                        }
+                                }
+                        }
+
+                        >a {
+                                height: 50px;
+                                width: 190px;
+                                background-color: $orange;
+                                color: white;
+                                font-weight: bolder;
+                                margin: 30px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                padding: 20px;
+
+                                &:hover {
+                                        background-color: black;
+                                }
+                        }
+                }
+
+                >section {
+                        width: 100%;
+                        height: 100vh;
+                        background-color: black;
+                        background-image: url(../img/background.png);
+                        display: flex;
+                        justify-content: space-between;
+
+                        >div {
+                                width: 50%;
+                                display: flex;
+                                flex-wrap: wrap;
+                                padding: 50px;
+
+                                >* {
+                                        color: white;
+                                        width: 100%;
+                                        // border: 1px solid wheat;
+                                        display: flex;
+                                        align-items: center;
+                                }
+
+                                >span {
+                                        font-size: 20px;
+                                }
+
+                                >h2 {
+                                        font-size: 60px;
+                                        font-weight: bold;
+                                        color: #ff512f;
+                                        font-family: serif;
+                                }
+
+                                >p {
+                                        width: 70%;
+                                        font-size: 20px;
+                                        font-weight: lighter;
+                                }
+                        }
+
+                        >figure {
+                                height: 100%;
+                                width: 50%;
+
+                                >img {
+                                        width: 100%;
+                                        height: 100%;
+                                }
+                        }
+                }
+        }
+}
+
+// صفحه دوم استایل دهی
+
+.page2 {
+        width: 100%;
+        margin-top: 20px;
+
+        >.row {
+                justify-content: space-evenly;
+
+                >div {
+                        height: 600px;
+                        width: 30%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        padding: 30px;
+                        // border: 1px solid black;
+                        align-items: center;
+                        justify-content: center;
+
+                        >figure {
+                                >figcaption {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        margin-top: 20px;
+                                        font-size: 20px;
+                                        font-weight: bold;
+                                }
+                        }
+
+                        >p {
+                                text-align: center;
+                                padding: 10px;
+                                font-size: 18px;
+                                font-weight: lighter;
+                                // background-color: $orange;
+                                height: 20%;
+                        }
+
+                        >a {
+                                font-size: 20px;
+                                padding: 20px;
+                                // border: 1px solid black;
+                                background-color: $orange;
+
+                                &:hover {
+                                        background-color: black;
+                                        color: white;
+                                }
+                        }
+
+                }
+        }
+}
+
+// استایل دهی صفحه سوم
+
+.page3 {
+        display: flex;
+        margin-top: 50px;
+        padding: 40px;
+        width: 100%;
+        justify-content: space-between;
+
+        >figure {
+                display: flex;
+                width: 55%;
+                // background-color: #ff512f;
+                height: 650px;
+
+
+                >img {
+                        width: 100%;
+                }
+        }
+
+        >div {
+                display: flex;
+                flex-wrap: wrap;
+                width: 40%;
+
+                // background-color: #ff512f;
+                >span {
+                        font-size: 20px;
+                }
+
+                >h3 {
+                        font-size: 50px;
+                }
+        }
+}
+
+.page4 {
+        background-color: #0f1317;
+        display: flex;
+        flex-wrap: wrap;
+
+        >span {
+                width: 100%;
+                color: white;
+                display: flex;
+                justify-content: center;
+                margin-top: 100px;
+                font-size: 20px;
+                font-weight: lighter;
+                font-family: "Montserrat", sans-serif;
+        }
+
+        >h3 {
+                width: 100%;
+                color: white;
+                display: flex;
+                justify-content: center;
+                margin-top: 30px;
+                font-size: 40px;
+        }
+
+        >div {
+                display: flex;
+                width: 100%;
+
+                >figure {
+                        width: 25%;
+                        padding: 20px;
+                        margin-top: 20px;
+                        // border: 1px solid wheat;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+
+                        >img {
+                                width: 100%;
+                        }
+
+                        >figcaption {
+                                font-size: 25px;
+                                color: white;
+                                font-weight: bold;
+                                display: flex;
+                                justify-content: center;
+                                margin-top: 30px;
+                        }
+
+                        >p {
+                                text-align: center;
+                                color: gray;
+                                margin-top: 10px;
+                        }
+
+                        >a {
+                                width: 130px;
+                                height: 50px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                border: 1px solid white;
+                                margin-top: 40px;
+                                margin-bottom: 70px;
+                                color: white;
+                                padding: 20px;
+
+                                &:hover {
+                                        border-color: #ff512f;
+                                }
+                        }
+                }
+        }
+}
+
+.page5 {
+        width: 100%;
+        display: flex;
+        background-color: #ff512f;
+        background-image: url(../img/back.png);
+        padding: 20px;
+        justify-content: space-between;
+        align-items: center;
+
+        >figure {
+                display: flex;
+                padding: 30px;
+                flex-wrap: wrap;
+                width: 70%;
+                // border: 1px solid wheat;
+                // justify-content: space-between;
+
+                >img {
+                        width: 20%;
+                        height: 150px;
+                }
+
+                >figcaption {
+                        width: 70%;
+                        height: 100px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 30px;
+                        color: white;
+                        font-weight: bold;
+                        // border: 1px solid rebeccapurple;
+                        margin-top: 50px;
+                        margin-left: 50px;
+                }
+
+
+        }
+
+        >a {
+                background-color: white;
+                width: 200px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                // padding: 30px;
+                margin-right: 70px;
+                margin-top: 30px;
+                font-weight: bold;
+
+                &:hover {
+                        background-color: #0f1317;
+                        color: white;
+                }
+        }
+}
+
+.page6 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+
+        >div {
+                width: 40%;
+                margin-left: 30px;
+
+                >h4 {
+                        font-size: 40px;
+                        font-weight: bold;
+                        margin-bottom: 30px;
+                }
+
+                >p {
+                        line-height: 30px;
+                        margin-bottom: 60px;
+                }
+
+                >figure {
+                        display: flex;
+                        margin: 60px 0px;
+
+                        >figcaption {
+                                margin-left: 20px;
+
+                                >span {
+                                        font-size: 20px;
+                                        font-weight: bold;
+                                        // margin-bottom: 50px;
+                                }
+
+                                >p {
+                                        line-height: 30px;
+                                        margin-top: 20px;
+                                }
+
+                        }
+                }
+        }
+
+        >figure {
+                width: 40%;
+                height: 700px;
+                position: relative;
+                margin-right: 40px;
+
+                >img {
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                }
+
+                >figcaption {
+                        position: absolute;
+                        left: -60px;
+                        bottom: 20px;
+                        background-color: white;
+                        width: 300px;
+                        height: 500px;
+                        font-size: 50px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        box-shadow: -10px 0px 5px gray;
+                        padding: 20px;
+                        text-align: center;
+                }
+        }
+}
+
+.page7 {
+        width: 100%;
+        height: 60vh;
+        margin-top: 60px;
+
+        >.row {
+                width: 100%;
+                flex-grow: 1;
+                margin-top: 80px;
+
+                >figure {
+                        width: 25%;
+                        display: flex;
+                        // flex-grow: 1;
+                        justify-content: space-evenly;
+                        flex-wrap: wrap;
+
+
+
+                        >figcaption {
+                                width: 100%;
+                                font-size: 60px;
+                                text-align: center;
+                                margin-top: 20px;
+                        }
+                }
+        }
+}
+
+// استایل دهی صفحه 8
+
+.page8 {
+        background-color: #0f1317;
+        width: 100%;
+
+        .row {
+                width: 100%;
+                display: flex;
+                flex-wrap: nowrap;
+
+                >figure {
+                        width: 50%;
+
+                        >img {
+                                width: 100%;
+                                height: 900px;
+                        }
+                }
+
+                >section {
+                        width: 50%;
+                        margin: 40px;
+                        margin-top: 80px;
+
+                        >* {
+                                color: white;
+                                margin: 25px;
+                                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                        }
+
+                        >h4 {
+                                font-size: 40px;
+                                font-weight: bold;
+                                // margin: 20px 0px;
+                        }
+
+                        >div {
+                                display: flex;
+                                width: 100%;
+                                // background-color: antiquewhite;
+
+                                >figure {
+                                        width: 100%;
+                                        margin: 20px;
+
+
+                                        >img {
+                                                width: 100%;
+                                                border: 10px solid #262728;
+                                                border-radius: 50%;
+                                        }
+
+                                        >figcaption {
+                                                font-size: 20px;
+                                                text-align: center;
+                                                margin-top: 5px;
+                                        }
+
+                                }
+                        }
+                }
+        }
+}
+
+// استایل صفحه نهم
+
+.page9 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 200px;
+
+        >.row {
+                >h4 {
+                        width: 100%;
+                        font-size: 50px;
+                        font-weight: bold;
+                        display: flex;
+                        justify-content: center;
+                }
+
+                >.row {
+                        display: flex;
+                        flex-wrap: nowrap;
+                        width: 100%;
+
+                        >div {
+                                width: 50%;
+                                display: flex;
+                                flex-wrap: wrap;
+                                margin-top: 40px;
+
+                                >figure {
+                                        width: 100%;
+                                        height: 400px;
+                                        margin: 30px;
+                                        position: relative;
+
+                                        >img {
+                                                height: 100%;
+                                                width: 100%;
+                                                border-radius: 10px;
+                                                position: absolute;
+                                                bottom: 0;
+                                                left: 0;
+                                        }
+
+                                        &:hover::after {
+                                                height: 100%;
+                                        }
+
+                                        &:after {
+                                                content: 'Maryam Parvaz';
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                color: white;
+                                                font-size: 20px;
+                                                width: 100%;
+                                                height: 0px;
+                                                background-color: #0f13179d;
+                                                position: absolute;
+                                                bottom: 0;
+                                                left: 0;
+                                                border-radius: 10px;
+                                                transition: .4s;
+                                                overflow: hidden;
+                                        }
+                                }
+
+                                >span {
+                                        width: 100%;
+                                        display: flex;
+                                        justify-content: center;
+                                        font-size: 30px;
+                                        font-weight: bold;
+                                }
+
+                                >p {
+                                        width: 100%;
+                                        text-align: center;
+                                        margin-top: 15px;
+                                        font-size: 16px;
+                                }
+                        }
+                }
+
+                >a {
+                        width: 200px;
+                        height: 70px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: 1px solid #0f1317;
+                        margin: 60px auto;
+
+                        &:hover {
+                                border-color: #ff512f;
+                        }
+                }
+        }
+}
+
+// استایل صفحه دهم
+
+.page10 {
+        width: 100%;
+        display: flex;
+        margin-top: 100px;
+
+        >.row {
+                width: 100%;
+                flex-wrap: nowrap;
+                // background-color: #0f1317;
+                justify-content: space-evenly;
+
+                >figure {
+                        width: 200px;
+                        height: 200px;
+                        margin: 20px;
+
+                        >img {
+                                width: 100%;
+                                height: 100%;
+                        }
+                }
+        }
+}
+
+// استایل صفحه 11
+
+.page11 {
+        width: 100%;
+        background-image: url(../img/back2.jpg);
+        background-size: cover;
+        margin-top: 70px;
+
+        >.row {
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                >* {
+                        color: white;
+                }
+
+                >span {
+                        width: 100%;
+                        margin-top: 80px;
+                        text-align: center;
+                        font-size: 20px;
+
+                }
+
+                >h6 {
+                        text-align: center;
+                        font-size: 40px;
+                        width: 100%;
+                        margin: 30px 0px;
+                        font-weight: bold;
+                }
+
+                >p {
+                        width: 100%;
+                        text-align: center;
+                        margin-bottom: 50px;
+                        font-size: 18px;
+                }
+
+                >input {
+                        width: 270px;
+                        height: 50px;
+                        // margin: 10px auto;
+                        display: flex;
+                        justify-content: center;
+                        font-size: 20px;
+                }
+
+                >a {
+                        width: 170px;
+                        height: 50px;
+                        background-color: #ff512f;
+                        margin-top: 40px;
+                        margin-bottom: 60px;
+                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-weight: bold;
+                        border: 1px solid rgba(255, 0, 0, 0);
+
+                        &:hover {
+                                background-color: #ff522f00;
+                                border-color: white;
+                        }
+                }
+        }
+}
+
+// استایل فوتر
+
+footer {
+        width: 100%;
+        height: 60vh;
+        background-color: #0f1317;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-image: url(../img/header-food-pattern-bg.png);
+
+        >span {
+                width: 40%;
+                font-size: 40px;
+                color: #ff512f;
+                display: flex;
+                // background-color: aliceblue;
+                align-items: center;
+                font-family: serif;
+                margin-left: 20px;
+                font-weight: bold;
+                // background-color: #0f1317;
+        }
+
+        >div {
+                width: 20%;
+                display: flex;
+                flex-wrap: wrap;
+                // background-color: aliceblue;
+                // margin: 40px;
+                margin-top: 80px;
+                justify-content: end;
+
+                >*,
+                a:visited {
+                        color: white;
+                }
+
+                >span {
+                        width: 100%;
+                        font-size: 40px;
+                        font-weight: bold;
+                }
+
+                >a {
+                        width: 100%;
+                        font-size: 18px;
+                        font-weight: bold;
+
+                        &:hover {
+                                color: #ff512f;
+                        }
+                }
+
+                >figure {
+                        margin-right: 80px;
+                        margin-top: 40px;
+
+                        >img {
+                                border-radius: 10px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                        }
+                }
+        }
+}
