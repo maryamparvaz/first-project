@@ -8,14 +8,14 @@
 
 - [Demo Project](https://pouria-farahani-developer.github.io/Accordion-Menu-By-React/)
 
-- Developed by Maryam Parvaz
+- Developed by Maryam Parvaz 🙎
 
 - Created - 2023-6-26
 
-- Technologies Used - Html , css 
+- Technologies Used - Html , css 😍
 
 - Hooks Used : useState 
 
-- Role - Frontend
+- Role - Frontend👌
 
-- How to reach me : with my [instagram](https://www.instagram.com/maryamparvaz_web) and [linkedin](https://www.linkedin.com/in/maryamparvaz)
+- How to reach me : with my [instagram](https://www.instagram.com/maryamparvaz_web) and [linkedin](https://www.linkedin.com/in/maryamparvaz)👩‍💻
